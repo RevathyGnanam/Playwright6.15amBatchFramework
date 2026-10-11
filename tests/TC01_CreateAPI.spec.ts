@@ -23,7 +23,7 @@ console.log(responseBody)
 expect(response.ok()).toBeTruthy()
 expect(response.status()).toBe(200)
 const booking = responseBody.booking;
-console.log("Revathy Changes---->",responseBody)
+console.log("Revathy code---->",responseBody)
 expect(booking).toMatchObject({
     "firstname": "Jim",
     "lastname": "Brown",
